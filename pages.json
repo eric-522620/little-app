@@ -38,8 +38,14 @@
                
             }
             
-        }
-    ],
+    }],
+	"subPackages": [{
+			"root": "subpkg",
+			"pages": [{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :{}
+                }]
+	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "捐书小程序",
@@ -59,7 +65,7 @@
 				"selectedIconPath": "static/home-active.png"
 			},{
 				"pagePath": "pages/shop/shop",
-				"text": "商城",
+				"text": "分类",
 				"iconPath": "static/cate.png",
 				"selectedIconPath": "static/cate-active.png"
 			},{
