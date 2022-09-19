@@ -1,6 +1,6 @@
 <template>
 	<view>
-		goods_detail
+		Goods_list
 	</view>
 </template>
 
